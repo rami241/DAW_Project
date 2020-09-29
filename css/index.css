@@ -1,0 +1,10 @@
+.multiple_columns{
+	column-count: 3;	/* columns num,the element should be divided into. will divide the text in the multiple_columns element into 3*/
+	column-gap: 40px;	/* gap between the columns */
+	/*column-rule: 1px solid lightblue;*/
+	column-rule-style: solid;	/*the style of the rule between columns*/
+	column-rule-width: 1px;	/*the width of the rule between columns*/
+	column-rule-color: lightblue;	/*the color of the rule between columns*/
+
+	column-width: 100px;	/*optimal width for the columns*/
+}
